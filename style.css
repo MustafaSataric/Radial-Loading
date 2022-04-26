@@ -1,0 +1,220 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.rt-container{  
+  position: absolute;
+  top: 20vh;
+  right: 45vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3vh;
+}
+.radialProgressBar {
+  border-radius: 50%;
+  transform: translate(50%, 50%);
+  width: 22vh;
+  height: 22vh;
+  display: flex;
+  background: #ddd;
+  margin: 10vh;
+  float:left;
+}
+.radialProgressBar .overlay {
+  border-radius: 50%;
+  width: 18vh;
+  height: 18vh;
+  margin: auto;
+  background: #fff;
+  text-align: center;
+  padding-top: 30%;
+}
+.glavni{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.restoranpozadina{
+  position: absolute;
+  top: 5vh;
+  background-image: url("img/th.jpg");
+  background-repeat: no-repeat;
+  background-size: 80vw 90vh;
+  width: 80vw;
+  height: 90vh;
+  border-radius: 2vh;
+}
+#heading{
+  font-family: "Brush Script MT";
+  color: rgba(185, 152, 8, 0.795);
+  font-size: 24vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -28vh;
+}
+.sablja{
+  position: absolute;
+  width: 15vw;
+  height: 58vh;
+  top: 20vh;
+  right: 25vh;
+}
+.slikasablje{
+  position: relative;
+  top: -8vh;
+  width: 14.5vw;
+  height: 45vh;
+}
+.sabljainfo{
+  font-family: "Brush Script MT";
+  color: rgba(185, 152, 8, 0.795);
+  font-size: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -4vh;
+}
+.itemiinfo{
+  font-family: "Brush Script MT";
+  color: rgba(185, 152, 8, 0.795);
+  font-size: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -5.5vh;
+}
+.slikaitemi{
+  position: relative;
+  top: -10vh;
+  width: 14.5vw;
+  height: 20vh;
+}
+.kotleti{
+  position: absolute;
+  width: 15vw;
+  height: 32vh;
+  top: 20vh;
+  left: 5vh;
+}
+.pupak{
+  position: absolute;
+  width: 15vw;
+  height: 32vh;
+  top: 20vh;
+  left: 38.5vh;
+}
+.steak{
+  position: absolute;
+  width: 15vw;
+  height: 32vh;
+  top: 20vh;
+  left: 72vh;
+}
+.whisky{
+  position: absolute;
+  width: 15vw;
+  height: 32vh;
+  top: 56vh;
+  left: 56vh;
+}
+.pivo{
+  position: absolute;
+  width: 15vw;
+  height: 32vh;
+  top: 56vh;
+  left: 23vh;
+}
+.plusitem{
+  font-family: "Brush Script MT";
+  position: relative;
+  width: 2vw;
+  height: 5vh;
+  background-color: rgba(185, 152, 8, 0.795);
+  color:white;
+  font-size: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.kolicinaitem{
+  font-family: "Brush Script MT";
+  position: relative;
+  top: -5vh;
+  left: 2vw;
+  width: 2vw;
+  height: 5vh;
+  background-color: white;
+  color:rgba(185, 152, 8, 0.795);
+  font-size: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.minusitem{
+  font-family: "Brush Script MT";
+  position: relative;
+  top: -10vh;
+  left: 4vw;
+  width: 2vw;
+  height: 5vh;
+  background-color: rgba(185, 152, 8, 0.795);
+  color:white;
+  font-size: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.cena{
+  font-family: "Brush Script MT";
+  position: relative;
+  top: -1.75vh;
+  left: -0vw;
+  color: white;
+  font-size: 4vh;
+}
+.cenaitem{
+  font-family: "Brush Script MT";
+  position: absolute;
+  top: 27.3vh;
+  left: -0vw;
+  color: white;
+  font-size: 4vh;
+}
+.kolicinasablja{
+  position: relative;
+  top: -6.5vh;
+  right: -17vh;
+  width: 6.4vw;
+  height: 6vh;
+}
+.kolicinaitemi{
+  position: relative;
+  top: -10vh;
+  right: -17vh;
+  width: 6.4vw;
+  height: 6vh;
+}
+#kupi{
+  font-family: "Brush Script MT";
+  position: relative;
+  width: 60vh;
+  height: 4vw;
+  background-color: rgba(185, 152, 8, 0.795);
+  color:white;
+  font-size: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vh;
+  position: relative;
+  top: -30vh;
+  right: -60vw;
+  transform: rotate(-90deg);
+}

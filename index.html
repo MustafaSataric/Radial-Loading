@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <script>
+    var x = 0, y= 0, z= 0;
+    var duration = 7;
+    var duur = 360/(duration*100);
+   var interval = setInterval(zaehlen, 10); 
+    function zaehlen(){
+      document.getElementById("overlay").innerHTML = x.toFixed(2); 
+      if(y<180){
+        document.getElementById('radialProgressBar').style.backgroundImage = '-webkit-linear-gradient('+y+'deg, #ddd 50%, transparent 50%), -webkit-linear-gradient(left, #000000a8 50%, #ddd 50%)';
+      }
+      else{
+        if(z<180){
+          z=z+duur;
+          document.getElementById('radialProgressBar').style.backgroundImage = '-webkit-linear-gradient(left, #000000a8 50%, transparent 50%), -webkit-linear-gradient('+z+'deg, #000000a8 50%, #ddd 50%), linear-gradient(90deg, #000000a8 50%, transparent 50%), linear-gradient(54deg, #000000a8 50%, #ddd 50%)';
+        }
+      }
+      if(x <= duration - 0.01){
+        x=x+0.01;
+      }
+      else{
+        clearInterval(interval);
+      }
+      y=y+duur;
+    }
+  </script>
+</head>
+<body>
+
+<section>
+  <div class="rt-container">
+    <div class="radialProgressBar" id="radialProgressBar">
+      <div class="overlay" id="overlay" style="line-height: 6vh;">0</div>
+    </div>
+    </div>
+  </div>
+</section>
+
+	</body>
+</html>
